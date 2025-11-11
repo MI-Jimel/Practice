@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int n, ans = 0;
+    int n, answer = 0;
     cin >> n;
     int home[n], guest[n];
 
@@ -13,9 +13,9 @@ int main()
 
     for (int i =0; i < n;i++) {
         for (int j=0;j < n; j++) {
-            if (home[i]==guest[j]) ans++;
+            if (home[i]==guest[j]) answer++;
         }
     }
 
-    cout << ans << endl;
+    cout << answer << endl;
 }
